@@ -9,8 +9,6 @@ cask "kinde-cli" do
   end
 
   binary "kinde"
-  bash_completion "kinde-completion.bash"
-  zsh_completion "kinde-completion.zsh"
 
   on_macos do
     url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.0.8/kinde-cli_mac-os_all.tar.gz"
