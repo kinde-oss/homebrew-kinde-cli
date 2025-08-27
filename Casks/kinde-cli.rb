@@ -8,7 +8,7 @@ cask "kinde-cli" do
     skip "Auto-generated on release."
   end
 
-  binary "kinde-cli"
+  binary "kinde"
   bash_completion "kinde-completion.bash"
   zsh_completion "kinde-completion.zsh"
 
