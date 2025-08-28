@@ -2,7 +2,7 @@
 cask "kinde-cli" do
   desc "Kinde CLI utility"
   homepage "https://kinde.com"
-  version "0.0.11"
+  version "0.1.12"
 
   livecheck do
     skip "Auto-generated on release."
@@ -11,18 +11,18 @@ cask "kinde-cli" do
   binary "kinde"
 
   on_macos do
-    url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.0.11/kinde-cli_mac-os_all.tar.gz"
-    sha256 "9bfae61229e242c980c074b2ef60394316d7cfd1b700decc77bc4c63c9930495"
+    url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.1.12/kinde-cli_mac-os_all.tar.gz"
+    sha256 "67754c96d9fc184758c745be3ee71c8d3e397814462d9d2f219ab5561e3d93b0"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.0.11/kinde-cli_linux_x86_64.tar.gz"
-      sha256 "d16b5f5829a6071e2ace144f874df76b86892cdd1ed1de5ad89af1a3106cc243"
+      url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.1.12/kinde-cli_linux_x86_64.tar.gz"
+      sha256 "a0d071a028cb21ef0d5d89a2ac97b00b139bd32af282790806c90715f6cf90b1"
     end
     on_arm do
-      url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.0.11/kinde-cli_linux_arm64.tar.gz"
-      sha256 "056edff72d3bf7d0e4d0f6d1c5ba066ec6a86c2d2f6687771363b7372211f6e9"
+      url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.1.12/kinde-cli_linux_arm64.tar.gz"
+      sha256 "aac9242963c57f79336a6952ce6649a70f7e2eebf7512eb6f2196e297441d8e9"
     end
   end
 
