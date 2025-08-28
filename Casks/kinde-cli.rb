@@ -2,7 +2,7 @@
 cask "kinde-cli" do
   desc "Kinde CLI utility"
   homepage "https://kinde.com"
-  version "0.1.15-beta1"
+  version "0.1.15"
 
   livecheck do
     skip "Auto-generated on release."
@@ -11,8 +11,8 @@ cask "kinde-cli" do
   binary "kinde"
 
   on_macos do
-    url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.1.15-beta1/kinde-cli_mac-os_all.tar.gz"
-    sha256 "8b018309a7ab1102b4861b970e047d29c2522ee05756c5acc2f0666f4aaff7af"
+    url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.1.15/kinde-cli_mac-os_all.tar.gz"
+    sha256 "df136a1fc63e8b9372f82de0bbc6910bde57c611f6ec44688a91754a32a768b6"
   end
 
   postflight do
