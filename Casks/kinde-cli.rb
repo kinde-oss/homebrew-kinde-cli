@@ -12,7 +12,7 @@ cask "kinde-cli" do
 
   on_macos do
     url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.1.15-beta1/kinde-cli_mac-os_all.tar.gz"
-    sha256 "bfdb359b835296adea15a0830cb87ed7b6f22e690f7d65b80a8f0932c091ee96"
+    sha256 "8b018309a7ab1102b4861b970e047d29c2522ee05756c5acc2f0666f4aaff7af"
   end
 
   postflight do
