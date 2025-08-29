@@ -15,16 +15,6 @@ cask "kinde-cli" do
     sha256 "96df5a9d1b4bd962ca351e5cd1e9702cea76387717a993cfb31aa9a7a91b661c"
   end
 
-  on_linux do
-    on_intel do
-      url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.0.16-beta1/kinde-cli_linux_x86_64.tar.gz"
-      sha256 "7ca66744a66452bd741c0a0714e15bf5c34528125da8887ad0ecd7e54de47c3e"
-    end
-    on_arm do
-      url "https://github.com/kinde-oss/kinde-cli/releases/download/v0.0.16-beta1/kinde-cli_linux_arm64.tar.gz"
-      sha256 "c4884ca5105f49d56696973dcaac8d1cae53fa4feb6bb05f2afa0268754f2e28"
-    end
-  end  
 
   postflight do
     if OS.mac?
