@@ -1,0 +1,12 @@
+# Default owners for everything
+* @kinde-oss/giants-kinde
+
+# Dependency-related files for this repo (Ruby/Homebrew tap)
+Gemfile @kinde-oss/sdk-engineers
+**/Gemfile @kinde-oss/sdk-engineers
+Gemfile.lock @kinde-oss/sdk-engineers
+**/Gemfile.lock @kinde-oss/sdk-engineers
+*.gemspec @kinde-oss/sdk-engineers
+**/*.gemspec @kinde-oss/sdk-engineers
+.ruby-version @kinde-oss/sdk-engineers
+**/.ruby-version @kinde-oss/sdk-engineers
